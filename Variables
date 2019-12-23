@@ -1,0 +1,7 @@
+char : 2 
+short : 2
+int : 4
+float : 4
+long : 8
+double : 8
+boolean : NA
