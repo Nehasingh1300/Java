@@ -1,0 +1,12 @@
+PLATFORM INDEPENDENT
+  Creating executable code in one os and then executing it in various independent os.
+  Eg, We make a file firstDemo.java, then saving file in secondary memory.
+      Compiler will fetch file from PM and send .java file to PM from SM and convert it into byte code in a file(.class).
+      Jvm convert byte code to executable code; jvm load demo.class file from SM to PM: one jvm can understand one OS (so, it is paltform       independent.
+  1. Source Code: Platform Independent
+  2. Byte Code : Platform Independent
+  3. Executable Code : Platform Dependent
+  4. JVM : Platform Dependent
+  5. Java Software : Platform Dependent
+  6. Java Software Application : Platform Independent
+  
