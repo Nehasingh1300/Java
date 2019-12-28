@@ -1,3 +1,5 @@
+CASE SENSITIVE LANGUAGE
+
 PLATFORM INDEPENDENT
   Creating executable code in one os and then executing it in various independent os.
   Eg, We make a file firstDemo.java, then saving file in secondary memory.
@@ -10,3 +12,124 @@ PLATFORM INDEPENDENT
   5. Java Software : Platform Dependent
   6. Java Software Application : Platform Independent
   
+  
+Class Specifiers {Conrol Visibility of code}
+PUBLIC : Class method may be accessed outside of the Class.
+
+
+Static Keyword : Allow main to call itself without having an object of class.{which leads to logical error}
+
+ATOMIC ELEMENT OF JAVA
+          Whitespace : Doesnt affect the program // statement can be in one line also
+          Keyword : 50
+          Ientifier : are used to name class, things nd variables.
+          Literal : interge, string {it is not datatype but an object in java }, float type 
+          Seperators : 
+                  () parameters for methods
+                  {} contain values of automatically intialised arrays
+                  [] declare array type and dereferencing array
+                  ;  statement terminator
+                  ,  seperate identifier in variable declaration and chaining of statement in for
+                  .  separate package name from classes and separate variable/method from reference variable
+                  :: create method or constructor reference
+
+
+Comment 
+      // line comment
+      /*
+          block comment 
+      */
+      /*
+      *
+      *   Documentation Comment
+      *
+      */
+      
+print{only print} and println{print and move to next line}
+
+int i=5; // dynamic initialisation
+
+JAVA IS STRICTLY TYPED LANGUAGE
+            that means the datatype and value stored should be same{compatible}
+            
+Type Conversion:
+                  datatype identtifier = ( datatype ) another identifier;
+                  
+
+Operator
+          + Addition
+          - Subtraction
+          * Multiplication 
+          / Division
+          % Modulus
+          ++ Increment
+          += Addition Assignment
+          -= Subtraction Assignment
+          *= Multiplication Assignment
+          /= Division Assignment
+          %= Modulus Assignment
+          -- Decrement 
+    Unary ++a, -b
+    Binary a+b
+    Ternary b=a>0?a:-a
+    Concatenation Operator : system.out.println("Sum of "+a+" + "+b+"+" ="+sum);
+          EG:
+          int i=5,b=3;
+		      System.out.println("Sum is " + i+b); //Sum is 8
+          System.out.println("Sum is " + (i+b)); //Sum is 53
+          
+2's Compliment of X = NOT X + 1
+
+Relational Operator
+          == Equal To
+          != Not equal to
+          > Greater Than
+          < Less Than
+          >= Greater Than and equal to
+          <= Less than and equal to
+          
+Bitwise logical operator
+           && : short circuit and {first false so false}
+           || 
+           &
+           | 
+           !
+           ^
+           ?:
+           
+/*          
+import java.util.Scanner;
+
+class IfElse{
+  public static void main(String[] args){
+    Scanner sc = new Scanner(Scanner(System.in);
+    System.out.println("Enter a number");
+    int n = sc.nextInt();
+  }
+}
+*/
+
+
+Boolean usage
+/*
+boolean b;
+
+b=n%2;
+if(true)
+ print("even number");
+else
+  print("odd number");
+ */
+ 
+ 
+ SCANNER : 
+            String next() : returns next token from scanner
+            nextBoolean()	Reads a boolean value from the user
+            nextByte()	Reads a byte value from the user
+            nextDouble()	Reads a double value from the user
+            nextFloat()	Reads a float value from the user
+            nextInt()	Reads a int value from the user
+            nextLine()	Reads a String value from the user
+            nextLong()	Reads a long value from the user
+            nextShort()	Reads a short value from the user
+            
