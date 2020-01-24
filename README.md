@@ -33,7 +33,31 @@ Initialization − The 'new' keyword is followed by a call to a constructor. Thi
 ```
 Puppy myPuppy = new Puppy( "tommy" );
 ```
+### Java Basic Program of Students Database ( Using constructor )
+Using :
+      Scanner Class : For taking input
+      System.out.print : Printing in console
+      new : for making objects
+       
+```
+import java.util.Scanner;
 
+public class Main {
+   public Main() {
+      Scanner sc = new Scanner(System.in);		// declaring scanner class
+      
+      System.out.print("Name : ");
+      String name = sc.nextLine();                      // taking input through scanner class
+      
+      System.out.print("Roll Number : ");
+      int RollNumber = sc.nextInt();                     // taking input through scanner class
+   }
+
+   public static void main(String []args) {
+      Main myClass = new Main();                          // creates object 
+   }
+}
+```
 
 
 
