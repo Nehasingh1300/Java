@@ -61,7 +61,7 @@ public class  Static1{
 		}
 	}
 ```
-##Output
+## Output
 ```
 Customer ID number : 1
 Customer ID number : 1
