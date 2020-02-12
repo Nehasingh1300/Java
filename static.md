@@ -66,3 +66,6 @@ public class  Static1{
 Customer ID number : 1
 Customer ID number : 1
 ```
+
+# Static Method 
+There is no need to call its object for calling its method. A static method can be called without making object.
