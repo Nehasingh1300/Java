@@ -34,4 +34,4 @@ Member Declared in the body of interface<br>
 Member inherited from any super interface that it extends<br>
 Methods declared in interface are implicitly public abstract member methods<br>
 Field varibles in interface are public, static and final and so should be initialized<br>
-Static and Default methods with full defination can slao be member of interface<br>1
+Static and Default methods with full defination can slao be member of interface<br>
