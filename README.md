@@ -58,7 +58,7 @@ public class Main {
    }
 }
 ```
-
+#TRY THIS [CODE](https://github.com/Nehasingh1300/Java/blob/master/PrintName.java) 
 
 
 
