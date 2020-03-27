@@ -7,7 +7,6 @@ public class GetName  {
 	// Main method 
 	public static void main(String[] args) 
 	{ 
-
 		try { 
 			// create class object 
 			Class classobj = GetName.class; 
