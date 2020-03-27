@@ -16,8 +16,7 @@ public class Suspend extends Thread
         }    
     }    
     public static void main(String args[])  
-    {    
-        // creating three threads   
+    {  // creating three threads   
     	Suspend t1=new Suspend ();    
     	Suspend t2=new Suspend ();   
     	Suspend t3=new Suspend ();   
